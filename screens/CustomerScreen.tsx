@@ -1,12 +1,12 @@
 import { View, Text, SafeAreaView, ScrollView, ActivityIndicator } from 'react-native';
-import React, { useLayoutEffect } from 'react';
+import React, { useLayoutEffect, useState } from 'react';
 import { useTailwind } from 'tailwind-rn';
 import { CompositeNavigationProp, useNavigation } from '@react-navigation/native';
 import { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
 import { TabStackParamList } from '../navigator/TabNavigator';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigator/RootNavigator';
-import { Image } from '@rneui/themed';
+import { Image, Input } from '@rneui/themed';
 
 export type CustomerScreenNavigationProp = CompositeNavigationProp<
   BottomTabNavigationProp<TabStackParamList, 'Customers'>,
@@ -16,6 +16,7 @@ export type CustomerScreenNavigationProp = CompositeNavigationProp<
 const CustomerScreen = () => {
   const tw = useTailwind();
   const navigation = useNavigation<CustomerScreenNavigationProp>();
+  const [input, setInput] = useState<string>('');
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -24,9 +25,11 @@ const CustomerScreen = () => {
   }, []);
 
   return (
-    <ScrollView>
+    <ScrollView style={{ backgroundColor: '#59C1CC' }}>
       {/* <Text style={tw('text-blue-500')}>CustomerScreen</Text> */}
       <Image source={{ uri: 'https://links.papareact.com/3jc' }} containerStyle={tw('w-full h-64')} PlaceholderContent={<ActivityIndicator />} />
+
+      <Input placeholder='Search by Customer' value={input} onChangeText={setInput} containerStyle={tw('bg-white pt-5 pb-0 px-10')} />
     </ScrollView>
   );
 };
