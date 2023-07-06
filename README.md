@@ -14,8 +14,14 @@ npm run dev:tailwind
 
 ---
 
-2 - cd INTO stepzen AND RUN THE FOLLOWING COMMAND TO SPIN UP STEPZEN ENDPOINT DEPLOYER
+2 - cd INTO stepzen AND RUN THE FOLLOWING COMMAND TO SPIN UP STEPZEN ENDPOINT DEPLOYER AND USE https://dashboard.stepzen.com/explorer
 
 ```
 stepzen start
+```
+
+OR THE FOLLOWING COMMAND TO SPIN STEPZEN UP AND USE http://localhost:5001/api/dealing-monkey WHILE DEVELOPING
+
+```
+stepzen start --dashboard=local
 ```
