@@ -14,7 +14,7 @@ npm run dev:tailwind
 
 ---
 
-2 - cd INTO stepzen AND RUN THE FOLLOWING COMMAND TO SPIN UP STEPZEN
+2 - cd INTO stepzen AND RUN THE FOLLOWING COMMAND TO SPIN UP STEPZEN ENDPOINT DEPLOYER
 
 ```
 stepzen start

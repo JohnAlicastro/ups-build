@@ -52,12 +52,12 @@
   padding-right: 2.5rem
 }
 
-.pt-5 {
-  padding-top: 1.25rem
-}
-
 .pb-0 {
   padding-bottom: 0px
+}
+
+.pt-5 {
+  padding-top: 1.25rem
 }
 
 .uppercase {
@@ -66,9 +66,4 @@
 
 .capitalize {
   text-transform: capitalize
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity))
 }
