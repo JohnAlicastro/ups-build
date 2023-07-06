@@ -26,7 +26,6 @@ const CustomerScreen = () => {
 
   return (
     <ScrollView style={{ backgroundColor: '#59C1CC' }}>
-      {/* <Text style={tw('text-blue-500')}>CustomerScreen</Text> */}
       <Image source={{ uri: 'https://links.papareact.com/3jc' }} containerStyle={tw('w-full h-64')} PlaceholderContent={<ActivityIndicator />} />
 
       <Input placeholder='Search by Customer' value={input} onChangeText={setInput} containerStyle={tw('bg-white pt-5 pb-0 px-10')} />

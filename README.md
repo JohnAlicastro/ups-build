@@ -1,4 +1,4 @@
-RUN THE FOLLOWING TWO COMMANDS TO SPIN UP THE APP
+1 - RUN THE FOLLOWING TWO COMMANDS IN ROOT DIRECTORY TO SPIN UP THE APP
 
 ```
 npx expo start
@@ -11,3 +11,11 @@ npm run dev:tailwind
 ```
 
 (This is to spin up the tailwind-rn compiler)
+
+---
+
+2 - cd INTO stepzen AND RUN THE FOLLOWING COMMAND TO SPIN UP STEPZEN
+
+```
+stepzen start
+```
