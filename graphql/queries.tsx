@@ -42,5 +42,3 @@ export const GET_ORDERS = gql`
     }
   }
 `;
-
-
