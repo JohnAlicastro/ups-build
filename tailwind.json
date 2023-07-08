@@ -19,25 +19,19 @@
 			"position": "relative"
 		}
 	},
-	"top-5": {
-		"style": {
-			"top": 20
-		}
-	},
 	"right-5": {
 		"style": {
 			"right": 20
 		}
 	},
+	"top-5": {
+		"style": {
+			"top": 20
+		}
+	},
 	"z-10": {
 		"style": {
 			"zIndex": 10
-		}
-	},
-	"my-2": {
-		"style": {
-			"marginTop": 8,
-			"marginBottom": 8
 		}
 	},
 	"mx-auto": {
@@ -46,10 +40,10 @@
 			"marginRight": "auto"
 		}
 	},
-	"mx-5": {
+	"my-2": {
 		"style": {
-			"marginLeft": 20,
-			"marginRight": 20
+			"marginTop": 8,
+			"marginBottom": 8
 		}
 	},
 	"mb-5": {
@@ -65,6 +59,11 @@
 	"mt-5": {
 		"style": {
 			"marginTop": 20
+		}
+	},
+	"-mt-3": {
+		"style": {
+			"marginTop": -12
 		}
 	},
 	"block": {
@@ -102,6 +101,11 @@
 			"flexDirection": "row"
 		}
 	},
+	"items-start": {
+		"style": {
+			"alignItems": "flex-start"
+		}
+	},
 	"items-center": {
 		"style": {
 			"alignItems": "center"
@@ -123,14 +127,6 @@
 			"borderTopRightRadius": 8,
 			"borderBottomRightRadius": 8,
 			"borderBottomLeftRadius": 8
-		}
-	},
-	"rounded": {
-		"style": {
-			"borderTopLeftRadius": 4,
-			"borderTopRightRadius": 4,
-			"borderBottomRightRadius": 4,
-			"borderBottomLeftRadius": 4
 		}
 	},
 	"border": {
@@ -177,29 +173,19 @@
 			"paddingBottom": 0
 		}
 	},
-	"pt-5": {
-		"style": {
-			"paddingTop": 20
-		}
-	},
 	"pb-5": {
 		"style": {
 			"paddingBottom": 20
 		}
 	},
+	"pt-5": {
+		"style": {
+			"paddingTop": 20
+		}
+	},
 	"pb-10": {
 		"style": {
 			"paddingBottom": 40
-		}
-	},
-	"pb-1": {
-		"style": {
-			"paddingBottom": 4
-		}
-	},
-	"pb-2": {
-		"style": {
-			"paddingBottom": 8
 		}
 	},
 	"text-center": {
@@ -211,6 +197,18 @@
 		"style": {
 			"fontSize": 24,
 			"lineHeight": 32
+		}
+	},
+	"text-base": {
+		"style": {
+			"fontSize": 16,
+			"lineHeight": 24
+		}
+	},
+	"text-lg": {
+		"style": {
+			"fontSize": 18,
+			"lineHeight": 28
 		}
 	},
 	"text-sm": {
@@ -229,18 +227,6 @@
 		"style": {
 			"fontSize": 12,
 			"lineHeight": 16
-		}
-	},
-	"text-lg": {
-		"style": {
-			"fontSize": 18,
-			"lineHeight": 28
-		}
-	},
-	"text-base": {
-		"style": {
-			"fontSize": 16,
-			"lineHeight": 24
 		}
 	},
 	"font-bold": {

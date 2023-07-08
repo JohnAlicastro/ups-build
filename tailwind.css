@@ -14,21 +14,16 @@
   position: relative
 }
 
-.top-5 {
-  top: 1.25rem
-}
-
 .right-5 {
   right: 1.25rem
 }
 
-.z-10 {
-  z-index: 10
+.top-5 {
+  top: 1.25rem
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem
+.z-10 {
+  z-index: 10
 }
 
 .mx-auto {
@@ -36,9 +31,9 @@
   margin-right: auto
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem
 }
 
 .mb-5 {
@@ -51,6 +46,10 @@
 
 .mt-5 {
   margin-top: 1.25rem
+}
+
+.-mt-3 {
+  margin-top: -0.75rem
 }
 
 .block {
@@ -81,6 +80,10 @@
   flex-direction: row
 }
 
+.items-start {
+  align-items: flex-start
+}
+
 .items-center {
   align-items: center
 }
@@ -95,10 +98,6 @@
 
 .rounded-lg {
   border-radius: 0.5rem
-}
-
-.rounded {
-  border-radius: 0.25rem
 }
 
 .border {
@@ -132,24 +131,16 @@
   padding-bottom: 0px
 }
 
-.pt-5 {
-  padding-top: 1.25rem
-}
-
 .pb-5 {
   padding-bottom: 1.25rem
 }
 
+.pt-5 {
+  padding-top: 1.25rem
+}
+
 .pb-10 {
   padding-bottom: 2.5rem
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem
 }
 
 .text-center {
@@ -159,6 +150,16 @@
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem
 }
 
 .text-sm {
@@ -174,16 +175,6 @@
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem
 }
 
 .font-bold {
