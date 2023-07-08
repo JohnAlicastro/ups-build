@@ -66,6 +66,11 @@
 			"marginTop": -12
 		}
 	},
+	"ml-2": {
+		"style": {
+			"marginLeft": 8
+		}
+	},
 	"block": {
 		"style": {
 			"display": "block"
@@ -127,6 +132,14 @@
 			"borderTopRightRadius": 8,
 			"borderBottomRightRadius": 8,
 			"borderBottomLeftRadius": 8
+		}
+	},
+	"rounded": {
+		"style": {
+			"borderTopLeftRadius": 4,
+			"borderTopRightRadius": 4,
+			"borderBottomRightRadius": 4,
+			"borderBottomLeftRadius": 4
 		}
 	},
 	"border": {

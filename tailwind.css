@@ -52,6 +52,10 @@
   margin-top: -0.75rem
 }
 
+.ml-2 {
+  margin-left: 0.5rem
+}
+
 .block {
   display: block
 }
@@ -98,6 +102,10 @@
 
 .rounded-lg {
   border-radius: 0.5rem
+}
+
+.rounded {
+  border-radius: 0.25rem
 }
 
 .border {
