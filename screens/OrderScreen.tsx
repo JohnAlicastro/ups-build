@@ -6,6 +6,7 @@ import { TabStackParamList } from '../navigator/TabNavigator';
 import { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigator/RootNavigator';
+import DeliveryCard from '../components/DeliveryCard';
 
 export type OrdersScreenNavigationProp = CompositeNavigationProp<
   BottomTabNavigationProp<TabStackParamList, 'Orders'>,
@@ -31,7 +32,11 @@ const OrderScreen = () => {
     });
   }, [order]);
 
-  return <View style={tw('-mt-2')}></View>;
+  return (
+    <View style={tw('-mt-2')}>
+      <DeliveryCard order={order} fullWidth />
+    </View>
+  );
 };
 
 export default OrderScreen;
