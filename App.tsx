@@ -3,11 +3,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import utilities from './tailwind.json';
 import RootNavigator from './navigator/RootNavigator';
 import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+import { STEPZEN_API_KEY, STEPZEN_URI } from '@env';
 
 const client = new ApolloClient({
-  // uri: 'http://localhost:5001/api/dealing-monkey',
-  uri: 'https://mifune.stepzen.net/api/dealing-monkey/__graphql',
-  headers: { Authorization: 'apikey mifune::stepzen.io+1000::52b81db992e16df6a7df26cdc1f3f028a0a727622cc326430d636dab3350dbbe' },
+  uri: STEPZEN_URI,
+  headers: { Authorization: `apikey ${STEPZEN_API_KEY}` },
   cache: new InMemoryCache(),
 });
 
