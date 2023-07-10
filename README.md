@@ -1,8 +1,8 @@
 # ups-build
 
-A fun project for a mock UPS / FedEx mobile app that tracks customers, orders and deliveries
+A fun project for a mock UPS / FedEx mobile app that tracks customers, orders and deliveries.
 <br/>
-Built with React Native, Expo, TypeScript, Firebase, GraphQL, StepZen, Apollo, React Native Elements & Tailwind CSS
+Built with React Native, Expo, TypeScript, Firebase, GraphQL, StepZen, Apollo, React Native Elements & Tailwind CSS.
 <br/>
 <br/>
 
